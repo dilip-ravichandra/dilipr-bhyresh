@@ -1,0 +1,119 @@
+donate.css
+body {
+    font-family: Arial, sans-serif;
+    color: #2E8B57;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #87CEEB;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Main Content */
+.donate-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.donation-info, .donation-options {
+    margin-bottom: 30px;
+}
+
+.donation-info p, .donation-options p {
+    font-size: 1em;
+    color: #6B8E23;
+}
+
+/* Donation Cards */
+.donation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.donation-card {
+    background: #F5F5DC;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.donation-card h3 {
+    color: #2E8B57;
+    font-size: 1.5em;
+}
+
+.donation-card p {
+    font-size: 0.9em;
+    color: #8B4513;
+    margin-bottom: 15px;
+}
+
+.donation-card button {
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.donation-card input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    padding: 30px;
+    background-color: #2E8B57;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.cta p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.cta-button {
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F5F5DC;
+    color: #2E8B57;
+}
